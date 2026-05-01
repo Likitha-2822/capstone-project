@@ -42,7 +42,8 @@ steps:
       IMAGE_URI=$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$FRONTEND_REPO:latest
       docker build -t $IMAGE_URI frontend/
       docker push $IMAGE_URI
-``` - name: Verify Rollout
+      
+- name: Verify Rollout
         run: |
           kubectl rollout status deployment/backend
           kubectl rollout status deployment/frontend
