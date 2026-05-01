@@ -1,6 +1,7 @@
 🚀 Project: End-to-End CI/CD Pipeline with Kubernetes on AWS
 
 🎯 Introduction
+
 This project demonstrates a complete DevOps workflow using Docker, Kubernetes (Kind), AWS EC2 & ECR, and GitHub Actions. A multi-service application (frontend, backend, MongoDB) is containerized, deployed to a local Kubernetes cluster on EC2, and managed via a CI/CD pipeline.
 
 Every push to the main branch:
